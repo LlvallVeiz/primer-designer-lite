@@ -1,0 +1,264 @@
+{
+  "16s_full": [
+    {
+      "target": "16s_full",
+      "forward": {
+        "sequence": "GATCATGGCTCAGATTGAACGC",
+        "start_0based": 14,
+        "strand": "+",
+        "length": 22,
+        "tm_wallace_c": 66.0,
+        "tm_nn_c": 58.0,
+        "gc_percent": 50.0,
+        "score": 0.4,
+        "penalties": [
+          "Tm NN 58.0C below ideal 58C"
+        ],
+        "checks": {
+          "homopolymer_run": 2,
+          "gc_clamp": {
+            "three_prime_base": "C",
+            "has_clamp": true,
+            "gc_in_last_5": 3
+          },
+          "self_complementarity": 4,
+          "three_prime_self": 2,
+          "hairpin_stem": 3,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "reverse": {
+        "sequence": "TACGGTTACCTTGTTACGACTTCAC",
+        "start_0based": 1488,
+        "strand": "-",
+        "length": 25,
+        "tm_wallace_c": 72.0,
+        "tm_nn_c": 58.23,
+        "gc_percent": 44.0,
+        "score": 1.0,
+        "penalties": [],
+        "checks": {
+          "homopolymer_run": 2,
+          "gc_clamp": {
+            "three_prime_base": "C",
+            "has_clamp": true,
+            "gc_in_last_5": 2
+          },
+          "self_complementarity": 3,
+          "three_prime_self": 2,
+          "hairpin_stem": 2,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "product_length": 1499,
+      "product_seq": "GATCATGGCTCAGATTGAACGCTGGCGGCAGGCCTAACACATGCAAGTCGAACGGTAACAGGAAGAAGCTTGCTTCTTTGCTGACGAGTGGCGGACGGGTGAGTAATGTCTGGGAAACTGCCTGATGGAGGGGGATAACTACTGGAAACGGTAGCTAATACCGCATAACGTCGCAAGACCAAAGAGGGGGACCTTCGGGCCTCTTGCCATCGGATGTGCCCAGATGGGATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAGGATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTTCGGGTTGTAAAGTACTTTCAGCGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTGACGTTACCCGCAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGTCGACTTGGAGGTTGTGCCCTTGAGGCGTGGCTTCCGGAGCTAACGCGTTAAGTCGACCGCCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCTGGTCTTGACATCCACGGAAGTTTTCAGAGATGAGAATGTGCCTTCGGGAACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGGTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATGACGTCAAGTCATCATGGCCCTTACGACCAGGGCTACACACGTGCTACAATGGCGCATACAAAGAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTAGTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAATGCCACGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTGGGTTGCAAAAGAAGTAGGTAGCTTAACCTTCGGGAGGGCGCTTACCACTTTGTGATTCATGACTGGGGTGAAGTCGTAACAAGGTAACCGTA",
+      "delta_tm_c": 0.23,
+      "anneal_temp_c": 53.0,
+      "score": 7.1,
+      "penalties": [
+        "product 1499 bp outside ideal 150-500 bp"
+      ]
+    },
+    {
+      "target": "16s_full",
+      "forward": {
+        "sequence": "TCATGGCTCAGATTGAACGC",
+        "start_0based": 16,
+        "strand": "+",
+        "length": 20,
+        "tm_wallace_c": 60.0,
+        "tm_nn_c": 56.99,
+        "gc_percent": 50.0,
+        "score": 1.01,
+        "penalties": [
+          "Tm NN 57.0C below ideal 58C"
+        ],
+        "checks": {
+          "homopolymer_run": 2,
+          "gc_clamp": {
+            "three_prime_base": "C",
+            "has_clamp": true,
+            "gc_in_last_5": 3
+          },
+          "self_complementarity": 4,
+          "three_prime_self": 2,
+          "hairpin_stem": 3,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "reverse": {
+        "sequence": "GGTTACCTTGTTACGACTTCACC",
+        "start_0based": 1487,
+        "strand": "-",
+        "length": 23,
+        "tm_wallace_c": 68.0,
+        "tm_nn_c": 57.03,
+        "gc_percent": 47.83,
+        "score": 1.57,
+        "penalties": [
+          "Tm NN 57.0C below ideal 58C"
+        ],
+        "checks": {
+          "homopolymer_run": 2,
+          "gc_clamp": {
+            "three_prime_base": "C",
+            "has_clamp": true,
+            "gc_in_last_5": 3
+          },
+          "self_complementarity": 3,
+          "three_prime_self": 3,
+          "hairpin_stem": 3,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "product_length": 1494,
+      "product_seq": "TCATGGCTCAGATTGAACGCTGGCGGCAGGCCTAACACATGCAAGTCGAACGGTAACAGGAAGAAGCTTGCTTCTTTGCTGACGAGTGGCGGACGGGTGAGTAATGTCTGGGAAACTGCCTGATGGAGGGGGATAACTACTGGAAACGGTAGCTAATACCGCATAACGTCGCAAGACCAAAGAGGGGGACCTTCGGGCCTCTTGCCATCGGATGTGCCCAGATGGGATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAGGATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTTCGGGTTGTAAAGTACTTTCAGCGGGGAGGAAGGGAGTAAAGTTAATACCTTTGCTCATTGACGTTACCCGCAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGTCGACTTGGAGGTTGTGCCCTTGAGGCGTGGCTTCCGGAGCTAACGCGTTAAGTCGACCGCCTGGGGAGTACGGCCGCAAGGTTAAAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCTGGTCTTGACATCCACGGAAGTTTTCAGAGATGAGAATGTGCCTTCGGGAACCGTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTTGTGAAATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGGTCCGGCCGGGAACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATGACGTCAAGTCATCATGGCCCTTACGACCAGGGCTACACACGTGCTACAATGGCGCATACAAAGAGAAGCGACCTCGCGAGAGCAAGCGGACCTCATAAAGTGCGTCGTAGTCCGGATTGGAGTCTGCAACTCGACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAATGCCACGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTGGGTTGCAAAAGAAGTAGGTAGCTTAACCTTCGGGAGGGCGCTTACCACTTTGTGATTCATGACTGGGGTGAAGTCGTAACAAGGTAACC",
+      "delta_tm_c": 0.04,
+      "anneal_temp_c": 51.99,
+      "score": 7.69,
+      "penalties": [
+        "product 1494 bp outside ideal 150-500 bp"
+      ]
+    }
+  ],
+  "16s_v4": [
+    {
+      "target": "16s_v4",
+      "forward": {
+        "sequence": "AGCAGCCGCGGTAATACGGA",
+        "start_0based": 519,
+        "strand": "+",
+        "length": 20,
+        "tm_wallace_c": 64.0,
+        "tm_nn_c": 62.47,
+        "gc_percent": 60.0,
+        "score": 7.47,
+        "penalties": [
+          "Tm NN 62.5C above ideal 62C",
+          "no GC clamp (3' base A)",
+          "self-complementarity run of 6"
+        ],
+        "checks": {
+          "homopolymer_run": 2,
+          "gc_clamp": {
+            "three_prime_base": "A",
+            "has_clamp": false,
+            "gc_in_last_5": 3
+          },
+          "self_complementarity": 6,
+          "three_prime_self": 1,
+          "hairpin_stem": 3,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "reverse": {
+        "sequence": "TCGTTTACGGCGTGGACTACCAG",
+        "start_0based": 796,
+        "strand": "-",
+        "length": 23,
+        "tm_wallace_c": 72.0,
+        "tm_nn_c": 62.33,
+        "gc_percent": 56.52,
+        "score": 0.93,
+        "penalties": [
+          "Tm NN 62.3C above ideal 62C"
+        ],
+        "checks": {
+          "homopolymer_run": 3,
+          "gc_clamp": {
+            "three_prime_base": "G",
+            "has_clamp": true,
+            "gc_in_last_5": 3
+          },
+          "self_complementarity": 3,
+          "three_prime_self": 2,
+          "hairpin_stem": 3,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "product_length": 300,
+      "product_seq": "AGCAGCCGCGGTAATACGGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGA",
+      "delta_tm_c": 0.14,
+      "anneal_temp_c": 57.33,
+      "score": 8.81,
+      "penalties": []
+    },
+    {
+      "target": "16s_v4",
+      "forward": {
+        "sequence": "AGCAGCCGCGGTAATACGGA",
+        "start_0based": 519,
+        "strand": "+",
+        "length": 20,
+        "tm_wallace_c": 64.0,
+        "tm_nn_c": 62.47,
+        "gc_percent": 60.0,
+        "score": 7.47,
+        "penalties": [
+          "Tm NN 62.5C above ideal 62C",
+          "no GC clamp (3' base A)",
+          "self-complementarity run of 6"
+        ],
+        "checks": {
+          "homopolymer_run": 2,
+          "gc_clamp": {
+            "three_prime_base": "A",
+            "has_clamp": false,
+            "gc_in_last_5": 3
+          },
+          "self_complementarity": 6,
+          "three_prime_self": 1,
+          "hairpin_stem": 3,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "reverse": {
+        "sequence": "ATCGTTTACGGCGTGGACTACCAG",
+        "start_0based": 796,
+        "strand": "-",
+        "length": 24,
+        "tm_wallace_c": 74.0,
+        "tm_nn_c": 62.31,
+        "gc_percent": 54.17,
+        "score": 1.11,
+        "penalties": [
+          "Tm NN 62.3C above ideal 62C"
+        ],
+        "checks": {
+          "homopolymer_run": 3,
+          "gc_clamp": {
+            "three_prime_base": "G",
+            "has_clamp": true,
+            "gc_in_last_5": 3
+          },
+          "self_complementarity": 3,
+          "three_prime_self": 2,
+          "hairpin_stem": 3,
+          "exact_sites": 1,
+          "near_sites": 1,
+          "seed_sites": 1
+        }
+      },
+      "product_length": 301,
+      "product_seq": "AGCAGCCGCGGTAATACGGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCCCCGGGCTCAACCTGGGAACTGCATCTGATACTGGCAAGCTTGAGTCTCGTAGAGGGGGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCGAAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGAT",
+      "delta_tm_c": 0.16,
+      "anneal_temp_c": 57.31,
+      "score": 9.06,
+      "penalties": []
+    }
+  ]
+}
