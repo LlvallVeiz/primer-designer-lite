@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "primer-designer-lite"
+version = "0.1.0"
+description = "Design PCR primer pairs from a DNA template (FASTA) with nearest-neighbour Tm, quality checks, and batch mode"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[project.scripts]
+primer-designer = "primer_designer.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
